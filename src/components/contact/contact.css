@@ -52,7 +52,7 @@ form
     flex-direction: column;
     gap: 1.2rem;
 }
-input , textarea
+input , textarea,button
 {
     width: 100%;
     padding: 1.5rem;
@@ -82,5 +82,6 @@ input , textarea
     {
         grid-template-columns: 1fr;
         width: var(--container-width-sm);
+        padding: 0 5rem 5rem 5rem;
     }
 }

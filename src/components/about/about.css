@@ -109,16 +109,17 @@
     }
 .about__cards
 {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    padding: 5rem;
     gap: 1rem;
 }
 .about__content
 {
     align-items: center;  
 }
-.about__content p
+.let
 {
-    margin: 1.5rem 0;
+    padding: 5rem;
+    margin-top: -5rem;
 }
-
 }

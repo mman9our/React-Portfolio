@@ -7,13 +7,12 @@ import Services from './components/services/Services'
 import Portfolio from './components/portfolio/Portfolio'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
-
-
-
+import { AnimatePresence } from "framer-motion";
 
 const App = () => {
-  return (
-    <>
+return (
+  <>
+  <AnimatePresence exitBeforeEnter >
       <Header />
       <Nav />
       <About />
@@ -21,8 +20,8 @@ const App = () => {
       <Services />
       <Portfolio />
       <Contact />
-      <Footer />
-    
+      <Footer />  
+      </AnimatePresence> 
     </>
   )
 }

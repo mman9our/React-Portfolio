@@ -67,7 +67,14 @@ section h2
     padding-bottom: 2rem;
     font-size: 1.8rem;
 }
-section >h2 , section > h5 ,section > h4
+.moh
+{
+    text-align: center;
+    color: var(--color-light);
+    
+    font-weight: 400;
+}
+section >h2 , section > h5 ,section > h4 
 {
     text-align: center;
     color: var(--color-light);

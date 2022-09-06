@@ -150,7 +150,6 @@ const Services = () => {
           </ul>
 
         </article>
-
       </div>
     </section>
   )

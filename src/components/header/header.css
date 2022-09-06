@@ -1,7 +1,7 @@
 header
 {
     height: 100vh;
-    padding-top: 7rem;
+    padding-top: 4rem;
     overflow: hidden;
 }
 
@@ -11,10 +11,9 @@ header
     height: 100%;
     position: relative;
 }
-
 .cta
 {
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
@@ -36,20 +35,18 @@ header
     height: 2rem;
     background: var(--color-primary);
 }
-
 .me
 {
     background: linear-gradient(var(--color-primary),transparent);
-    width: 22rem;
+    width: 18rem;
     height: 30rem;
     position: absolute;
-    left: calc(50% - 20vh);
+    left: calc(50% - 17vh);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     /*padding: 5rem 1.5rem 1.5rem 1.5rem;*/
 }
-
 .scroll__down
 {
     position: absolute;
@@ -59,7 +56,14 @@ header
     font-weight: 300;
     font-size: 0.9rem;
 }
-
+.fireworks
+{
+    margin-top:1.5rem;
+    margin-bottom:-3rem;
+    width: 17rem;    
+    font-size: 0.8rem;
+    font-weight: 500;
+}
 
 
 /* ================== MEDIA QUERY (Medium Device)==================== */
@@ -90,7 +94,7 @@ header
 header
 {
         height: 100vh;
-    }
+}
 .Header__Socials, .scroll__down
 {
     display: none;
@@ -98,7 +102,7 @@ header
 .me
 {
     background: linear-gradient(var(--color-primary),transparent);
-    width: 13rem;
+    width: 16rem;
     height: 20rem;
     left: calc(50% - 15vh);
     position: absolute;
@@ -111,5 +115,6 @@ header
 {
     font-size: 1.5rem;
 }
+
 
 }

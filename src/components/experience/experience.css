@@ -40,7 +40,21 @@
     margin-top: 6px;
     color: var(--color-primary);
 }
-
+.other_tools > span
+    {
+        color: var(--color-primary);
+    }
+    .other_tools 
+    {
+        color: var(--color-light);
+    }
+div > h5
+{
+        color: var(--color-light);
+        font-size: 0.6rem;   
+        padding-bottom: -1.9rem;
+        /* margin-bottom: 0.8rem; */
+}
 
 /* ================== MEDIA QUERY (Medium Device)==================== */
 
@@ -58,8 +72,8 @@
 .experience__content
 {
     padding: 1rem;
-}
-    
+}  
+
 }
     
 /* ================== MEDIA QUERY (Small Device)==================== */
@@ -68,12 +82,18 @@
 .experience__container
 {
         gap: 2rem;
-    }
-.experience__container > div
+}
+.experience__content
 {
-        width: 100%;
-        padding: 2rem 1rem;
-       
-    }
+    display: grid;
+    grid-template-columns: 1fr ;
+    row-gap: 2rem;
+}
+.other_tools 
+{
+    padding: 2.5rem;
+    margin-top: -2rem;
+}
+
 
 }
